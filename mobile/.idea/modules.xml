@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mobile.iml" filepath="$PROJECT_DIR$/mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile.iml" filepath="$PROJECT_DIR$/mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speech-to-text-and-health-management-modules/speech-to-text-and-health-management-modules.iml" filepath="$PROJECT_DIR$/speech-to-text-and-health-management-modules/speech-to-text-and-health-management-modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speech-to-text-and-health-management-modules/speech-to-text-and-health-management-modules.iml" filepath="$PROJECT_DIR$/speech-to-text-and-health-management-modules/speech-to-text-and-health-management-modules.iml" />
+    </modules>
+  </component>
+</project>

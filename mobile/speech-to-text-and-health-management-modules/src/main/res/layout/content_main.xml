@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ImageButton
+        android:id="@+id/imageButton_calculator"
+        android:layout_width="93dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton_food"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/calculator"/>
+
+    <ImageButton
+        android:id="@+id/imageButton_food"
+        android:layout_width="93dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/food"
+        android:onClick="irparaidentificacao"/>
+
+    <ImageButton
+        android:id="@+id/imageButton_catalog"
+        android:layout_width="93dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginRight="89dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton_drug"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_calculator"
+        app:srcCompat="@drawable/catalog"
+        android:onClick="irparaCatalog"/>
+
+    <ImageButton
+        android:id="@+id/imageButton_drug"
+        android:layout_width="93dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_food"
+        app:srcCompat="@drawable/remedio" />
+
+    <ImageButton
+        android:id="@+id/imageButton_exam"
+        android:layout_width="93dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginRight="89dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton_diet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_catalog"
+        app:srcCompat="@drawable/exame"
+        android:onClick="irparaExame"/>
+
+    <ImageButton
+        android:id="@+id/imageButton_diet"
+        android:layout_width="93dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_drug"
+        app:srcCompat="@drawable/dieta" />
+
+    <ImageButton
+        android:id="@+id/imageButton_dado"
+        android:layout_width="93dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginRight="89dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton_glicemia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_exam"
+        app:srcCompat="@drawable/dado" />
+
+    <ImageButton
+        android:id="@+id/imageButton_glicemia"
+        android:layout_width="93dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_diet"
+        app:srcCompat="@drawable/glucose" />
+</android.support.constraint.ConstraintLayout>
